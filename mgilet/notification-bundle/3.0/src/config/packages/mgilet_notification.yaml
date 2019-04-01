@@ -1,0 +1,6 @@
+doctrine:
+    orm:
+        resolve_target_entities:
+            Mgilet\NotificationBundle\Model\NotificationInterface: App\Entity\Notification
+            Mgilet\NotificationBundle\Model\NotifiableInterface: App\Entity\Notifiable
+            Mgilet\NotificationBundle\Model\NotifiableNotificationInterface: App\Entity\NotifiableNotification
